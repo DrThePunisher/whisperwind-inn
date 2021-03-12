@@ -2,4 +2,8 @@ const hello = () => {
     console.log("Hello world!");
 }
 
-export {hello}
+const add = (a, b) => {
+    return a + b;
+}
+
+export {hello, add};

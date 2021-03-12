@@ -1,7 +1,8 @@
 {
   "name": "whisperwind-inn",
+  "license": "MIT",
   "scripts": {
-    "test": "mocha **/spec.js --require babel-core/register"
+    "test": "mocha **/**.spec.js --require @babel/register"
   },
   "devDependencies": {
     "@babel/core": "^7.13.10",
@@ -11,6 +12,8 @@
     "mocha": "^8.3.1"
   },
   "babel": {
-    "presets": ["@babel/preset-env"]
+    "presets": [
+      "@babel/preset-env"
+    ]
   }
 }
