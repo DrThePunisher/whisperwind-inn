@@ -1,5 +1,9 @@
+# IDE
 .vscode
+.idea
 
+# Node Modules
 node_modules
 
+# Other
 yarn-error.log

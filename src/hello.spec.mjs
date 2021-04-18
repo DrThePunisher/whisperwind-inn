@@ -1,9 +1,9 @@
 import {expect} from 'chai';
-import {add} from './hello';
+import {add} from './hello.mjs';
 
 describe('add', () => {
     it('adds two numbers', () => {
-        const acutal = add(2, 6);
+        const actual = add(2, 6);
         expect(actual).to.equal(8);
     });
 });
